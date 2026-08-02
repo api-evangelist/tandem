@@ -1,7 +1,26 @@
 aid: tandem
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tandem.png
 name: Tandem
-description: Tandem is a company surfaced as a portfolio company of a16z, mayfield and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tandem is a virtual office for remote and distributed teams, backed by Y Combinator
+  and Andreessen Horowitz (a16z), that recreates the presence and spontaneity of an
+  in-person office online. It shows who is available and who is in a conversation, and
+  lets teammates drop into low-friction voice and video rooms with screen sharing, plus
+  integrations with tools like Notion, GitHub, and Trello. Surfaced as a VC-portfolio
+  lead and added to the API Evangelist network, Tandem is a consumer/team collaboration
+  product with app integrations but no public developer API, OpenAPI specification, or
+  developer portal at the time of enrichment (verified 2026-07-21 against https://tandem.chat).
 url: https://raw.githubusercontent.com/api-evangelist/tandem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,35 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-api-surface-note: >-
+  No public developer API, OpenAPI/AsyncAPI/GraphQL spec, developer portal, or real
+  /.well-known surface found. tandem.chat is a Phoenix/Cowboy single-page app that returns
+  the HTML shell (text/html, HTTP 200) for /.well-known/security.txt, /llms.txt, /api,
+  and /developers, so those are soft-200s, not artifacts. The Mayfield attribution appears
+  to be a portfolio-graph mismatch with the historical Tandem Computers.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Remote Work
+- Virtual Office
+- Team Collaboration
+- Video Conferencing
+- Communication
+- Collaboration
+common:
+- type: Website
+  url: https://tandem.chat
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
