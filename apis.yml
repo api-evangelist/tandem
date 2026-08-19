@@ -36,7 +36,7 @@ x-api-surface-note: >-
   the HTML shell (text/html, HTTP 200) for /.well-known/security.txt, /llms.txt, /api,
   and /developers, so those are soft-200s, not artifacts. The Mayfield attribution appears
   to be a portfolio-graph mismatch with the historical Tandem Computers.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
