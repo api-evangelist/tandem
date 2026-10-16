@@ -1,0 +1,14 @@
+{
+  "repo": "tandem",
+  "feeds": [
+    {
+      "source": "https://blog.tandem.chat/rss/",
+      "feed_url": "https://blog.tandem.chat/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
